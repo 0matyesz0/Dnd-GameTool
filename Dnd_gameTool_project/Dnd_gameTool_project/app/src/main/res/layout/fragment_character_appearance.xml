@@ -1,0 +1,344 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appearance_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dnd_gametool_project.fragment.CharacterAppearanceFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:cardBackgroundColor="@android:color/transparent"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:id="@+id/barbar_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/barbarian" />
+
+            <ImageView
+                android:id="@+id/barbar_selection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/white_selection_box"
+                android:visibility="gone" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:cardBackgroundColor="@android:color/transparent"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:id="@+id/bard_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/bard" />
+
+            <ImageView
+                android:id="@+id/bard_selection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:src="@drawable/white_selection_box"
+                android:visibility="gone" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:cardBackgroundColor="@android:color/transparent"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:id="@+id/cleric_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/cleric" />
+
+            <ImageView
+                android:id="@+id/cleric_selection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:src="@drawable/white_selection_box"
+                android:visibility="gone" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:cardBackgroundColor="@android:color/transparent"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:id="@+id/druid_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/druid" />
+
+            <ImageView
+                android:id="@+id/druid_selection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:src="@drawable/white_selection_box"
+                android:visibility="gone" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:cardBackgroundColor="@android:color/transparent"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:id="@+id/fighter_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/fighter" />
+
+            <ImageView
+                android:id="@+id/fighter_selection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:src="@drawable/white_selection_box"
+                android:visibility="gone" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:cardBackgroundColor="@android:color/transparent"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:id="@+id/monk_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/monk" />
+
+            <ImageView
+                android:id="@+id/monk_selection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:src="@drawable/white_selection_box"
+                android:visibility="gone" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:cardBackgroundColor="@android:color/transparent"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:id="@+id/paladin_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/paladin" />
+
+            <ImageView
+                android:id="@+id/paladin_selection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:src="@drawable/white_selection_box"
+                android:visibility="gone" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:cardBackgroundColor="@android:color/transparent"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:id="@+id/ranger_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ranger" />
+
+            <ImageView
+                android:id="@+id/ranger_selection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:src="@drawable/white_selection_box"
+                android:visibility="gone" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:cardBackgroundColor="@android:color/transparent"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:id="@+id/rogue_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/rogue" />
+
+            <ImageView
+                android:id="@+id/rogue_selection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:src="@drawable/white_selection_box"
+                android:visibility="gone" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:cardBackgroundColor="@android:color/transparent"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:id="@+id/sorcerer_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/sorcerer" />
+
+            <ImageView
+                android:id="@+id/sorcerer_selection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:src="@drawable/white_selection_box"
+                android:visibility="gone" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:cardBackgroundColor="@android:color/transparent"
+            android:layout_weight="1"
+            >
+
+            <ImageButton
+                android:id="@+id/warlock_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:background="@android:color/transparent"
+                android:src="@drawable/warlock" />
+
+            <ImageView
+                android:id="@+id/warlock_selection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:src="@drawable/white_selection_box"
+                android:visibility="gone" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            custom:cardBackgroundColor="@android:color/transparent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/wizard_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/wizard"/>
+
+            <ImageView
+                android:id="@+id/wizard_selection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:padding="10dp"
+                android:src="@drawable/white_selection_box"
+                android:visibility="gone"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

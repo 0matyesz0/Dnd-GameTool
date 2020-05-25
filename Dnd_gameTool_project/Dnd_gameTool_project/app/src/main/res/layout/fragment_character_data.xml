@@ -1,0 +1,484 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
+    android:orientation="vertical"
+    tools:context="com.example.dnd_gametool_project.fragment.CharacterDataFragment"
+    android:background="@drawable/sheet">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/layoutMargin"
+            android:text="@string/name"
+            android:textSize="@dimen/medium_size" />
+
+        <EditText
+            android:id="@+id/name_value"
+            android:layout_width="@dimen/editText_width"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/name_text"
+            android:layout_margin="@dimen/layoutMargin"
+            android:inputType="text"
+            android:textSize="@dimen/characterEditSize" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/intelligence_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/intelligence"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/intelligence_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/intelligence_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/constitution_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/constitution"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/constitution_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/constitution_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/armourClass_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/armourClass"
+                android:textSize="@dimen/small_size" />
+
+            <EditText
+                android:id="@+id/armourClass_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/armourClass_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/charisma_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/charisma"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/charisma_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/charisma_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/level_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/level"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/level_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/level_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/dexterity_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/dexterity"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/dexterity_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/dexterity_text"
+                android:inputType="number"
+                android:layout_margin="@dimen/layoutMargin"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/experience_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/experience"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/experience_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/experience_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/gold_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/gold"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/gold_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/gold_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/hitDice_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/hitDice"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/hitDice_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/hitDice_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/hp_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/hp"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/hp_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/hp_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/initiative_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/initiative"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/initiative_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/initiative_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/perception_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/perception"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/perception_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/perception_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/proficiency_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/proficiency"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/proficiency_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/proficiency_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/speed_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/speed"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/speed_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/speed_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/strength_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/strength"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/strength_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/strength_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/wisdom_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/wisdom"
+                android:textSize="@dimen/medium_size" />
+
+            <EditText
+                android:id="@+id/wisdom_value"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/wisdom_text"
+                android:layout_margin="@dimen/layoutMargin"
+                android:inputType="number"
+                android:textSize="@dimen/characterEditSize" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/race_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layoutMargin"
+                android:text="@string/race"
+                android:textSize="@dimen/medium_size" />
+
+            <Spinner
+                android:id="@+id/race_spinner"
+                android:layout_width="@dimen/editText_width"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/race_text"
+                android:layout_marginTop="@dimen/big_padding"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

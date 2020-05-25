@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Dnd_gameTool_project</string>
+    <string name="action_clear">Delete all</string>
+    <string name="action_map">Show map</string>
+    <string name="action_spells">Show Spells</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="save_button">Save</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="armourClass">Armour Class</string>
+    <string name="charisma">CHARISMA</string>
+    <string name="constitution">CONSTITUTION</string>
+    <string name="dexterity">DEXTERITY</string>
+    <string name="experience">EXPERIENCE</string>
+    <string name="gold">Gold amount</string>
+    <string name="hitDice">Hit dice</string>
+    <string name="hp">HP</string>
+    <string name="initiative">Initiative</string>
+    <string name="intelligence">INTELLIGENCE</string>
+    <string name="level">Level</string>
+    <string name="name">Name of character</string>
+    <string name="perception">Perception</string>
+    <string name="proficiency">Proficiency</string>
+    <string name="race">RACE</string>
+    <string name="speed">SPEED</string>
+    <string name="strength">STRENGTH</string>
+    <string name="wisdom">WISDOM</string>
+
+    <string name="raceSpinner">Races:</string>
+    <string name="classSpinner">Classes:</string>
+    <string name="levelSpinner">Levels:</string>
+
+    <string name="barbarian">Barbarian</string>
+    <string name="bard">Bard</string>
+    <string name="cleric">Cleric</string>
+    <string name="druid">Druid</string>
+    <string name="fighter">Fighter</string>
+    <string name="monk">Monk</string>
+    <string name="paladin">Paladin</string>
+    <string name="ranger">Ranger</string>
+    <string name="sorcerer">Sorcerer</string>
+    <string name="rogue">Rogue</string>
+    <string name="warlock">Warlock</string>
+    <string name="wizard">Wizard</string>
+
+    <string name="dark_elf">Dark Elf</string>
+    <string name="dragonborn">Dragonborn</string>
+    <string name="dwarf">Dwarf</string>
+    <string name="elf">Elf</string>
+    <string name="forest_gnom">Forest Gnom</string>
+    <string name="gnom">Gnom</string>
+    <string name="halfling">Halfling</string>
+    <string name="half_elf">Half Elf</string>
+    <string name="half_orc">Half Orc</string>
+    <string name="high_elf">High Elf</string>
+    <string name="hill_dwarf">Hill Dwarf</string>
+    <string name="human">Human</string>
+    <string name="lightfoot_halfling">Lightfoot Halfling</string>
+    <string name="mountain_dwarf">Mountain Dwarf</string>
+    <string name="rock_gnom">Rock Gnom</string>
+    <string name="stout_halfling">Stout Halfling</string>
+    <string name="tifling">Tifling</string>
+    <string name="wood_elf">Wood Elf</string>
+
+    <string name="title_activity_show_map">ShowMapActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_spash">SpashActivity</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+
+</resources>
