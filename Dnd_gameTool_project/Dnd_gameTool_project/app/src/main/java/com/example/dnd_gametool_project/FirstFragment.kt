@@ -10,6 +10,7 @@ import androidx.navigation.fragment.findNavController
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
+ * Also this is a comment, what's ya ganna do abouat it ?
  */
 class FirstFragment : Fragment() {
 
