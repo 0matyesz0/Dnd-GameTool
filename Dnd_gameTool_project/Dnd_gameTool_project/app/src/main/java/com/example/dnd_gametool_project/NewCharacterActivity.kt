@@ -21,7 +21,7 @@ class NewCharacterActivity : AppCompatActivity() {
         setContentView(R.layout.activity_new_character)
 
         var fragment = CharacterDataFragment()
-
+        // Naming convention is bad
         supportFragmentManager
             .beginTransaction()
             .add(R.id.container, fragment)

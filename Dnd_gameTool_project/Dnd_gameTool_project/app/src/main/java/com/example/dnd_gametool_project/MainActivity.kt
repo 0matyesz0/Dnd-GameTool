@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         val adapter = CharacterListAdapter(this)
         recyclerView.adapter = adapter
         recyclerView.layoutManager = LinearLayoutManager(this)
-
+        // this can be dangerous, broken window theory, tight-coupling, anti pattern... everything ...
         gameCharacterViewModel = ViewModelProvider(this).get(GameCharacterViewModel::class.java)
 
         gameCharacterViewModel.characters.observe(this, Observer { characters ->
