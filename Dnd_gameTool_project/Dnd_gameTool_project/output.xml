@@ -1,0 +1,24 @@
+<?xml version='1.0' ?>
+<Customers>
+  <Customer Name="Lift Line Skiing" Cust-num="1">
+    <Country>USA</Country>
+    <Address>276 North Street</Address>
+    <Address2></Address2>
+    <City>Boston</City>
+    <State>MA</State>
+    <Postal-Code>02114</Postal-Code>
+    <Contact>Gloria Shepley</Contact>
+    <Phone>(617) 450-0087</Phone>
+    <Sales-Rep>HXM</Sales-Rep>
+    <Credit-Limit>66700</Credit-Limit>
+    <Balance>42568</Balance>
+    <Terms>Net30</Terms>
+    <Discount>35</Discount>
+    <Comments>This customer is on credit hold.</Comments>
+  </Customer>
+  <Customer Name="Urpon Frisbee" Cust-num="2">
+    <Country>Finland</Country>
+    <Address>Rattipolku 3</Address>
+     . . .
+  </Customer>
+</Customers>
